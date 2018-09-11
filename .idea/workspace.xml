@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-2-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-2-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-1-1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-2.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +25,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module-02.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="module-02.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/module-02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="308">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script-1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script-1.js">
+      <file leaf-file-name="script-1-1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script-1-1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="572">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script-1-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script-1-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -49,16 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script-2.js">
+      <file leaf-file-name="script-2-2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script-2-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="154">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +87,11 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/module-01.html" />
-        <option value="$PROJECT_DIR$/js/script-2.js" />
-        <option value="$PROJECT_DIR$/js/script-1.js" />
         <option value="$PROJECT_DIR$/html/module-02.html" />
+        <option value="$PROJECT_DIR$/js/script-1.js" />
+        <option value="$PROJECT_DIR$/js/script-2.js" />
+        <option value="$PROJECT_DIR$/js/script-1-2.js" />
+        <option value="$PROJECT_DIR$/js/script-2-2.js" />
       </list>
     </option>
   </component>
@@ -84,8 +105,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="372" />
-    <option name="y" value="48" />
+    <option name="x" value="431" />
+    <option name="y" value="72" />
     <option name="width" value="1435" />
     <option name="height" value="1000" />
   </component>
@@ -147,15 +168,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536686208832</updated>
-      <workItem from="1536686210415" duration="818000" />
+      <workItem from="1536686210415" duration="3236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="818000" />
+    <option name="totallyTimeSpent" value="3236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="372" y="48" width="1435" height="1000" extended-state="0" />
+    <frame x="431" y="72" width="1435" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -189,27 +210,6 @@
     <entry file="file://$PROJECT_DIR$/html/module-01 - копия.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -219,8 +219,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/module-02.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-1-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-1-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-2-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module-01.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-2-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
