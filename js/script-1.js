@@ -1,3 +1,5 @@
+'use strict';
+
 //PART ONE
 const adminLogin = 'Tars';
 const adminPass = 'HardPass';
@@ -65,4 +67,4 @@ if (demand != Number.parseInt(demand) || Number.parseInt(demand) < 1) {
     }
 }
 
-console.log(`${demand}; sharm = ${sharm}; hurgada = ${hurgada}; taba = ${taba}`)
+console.log(`${demand}; sharm = ${sharm}; hurgada = ${hurgada}; taba = ${taba}`);
