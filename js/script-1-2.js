@@ -13,7 +13,7 @@ const msgSorry = 'Sorry, there are not so many tickets in any group';
 
 let demand = prompt(msgHowMany);
 
-if (parseInt(demand)) {
+if (!parseInt(demand)) {
     alert(msgErr);
 } else {
     let choice;
