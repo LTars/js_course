@@ -82,7 +82,7 @@ class Hamburger {
         let toppingPrice = this._toppings
             .reduce((acum, item) => acum + Hamburger.TOPPINGS[item]["price"], 0);
         let totalPrice = Hamburger.SIZES[this._size]['price'] + Hamburger.STUFFINGS[this._stuffing]['price'] + toppingPrice;
-        return totalPrice;
+        return this._totalPrice = totalPrice;
     }
 
     /**
@@ -95,7 +95,7 @@ class Hamburger {
         let toppingCalories = this._toppings
             .reduce((acum, item) => acum + Hamburger.TOPPINGS[item]['calories'], 0);
         let totalCalories = Hamburger.SIZES[this._size]['calories'] + Hamburger.STUFFINGS[this._stuffing]['calories'] + toppingCalories;
-        return totalCalories;
+        return this._totalCalories = totalCalories;
     }
 }
 
@@ -155,16 +155,16 @@ const hamburger = new Hamburger(Hamburger.SIZE_SMALL, Hamburger.STUFFING_CHEESE)
 hamburger.addTopping(Hamburger.TOPPING_SPICE);
 
 // Спросим сколько там калорий
-console.log("Calories: ", hamburger.calculateCalories());
+console.log("Calories: ", hamburger.calculateCalories);
 
 // Сколько стоит?
-console.log("Price: ", hamburger.calculatePrice());
+console.log("Price: ", hamburger.calculatePrice);
 
 // Я тут передумал и решил добавить еще соус
 hamburger.addTopping(Hamburger.TOPPING_SAUCE);
 
 // А сколько теперь стоит?
-console.log("Price with sauce: ", hamburger.calculatePrice());
+console.log("Price with sauce: ", hamburger.calculatePrice);
 
 // Проверить, большой ли гамбургер?
 console.log("Is hamburger large: ", hamburger.size === Hamburger.SIZE_LARGE);
