@@ -13,22 +13,20 @@ const msgSorry = 'Sorry, there are not so many tickets in any group';
 
 let demand = prompt(msgHowMany);
 
-if (!parseInt(demand)) {
+if (parseInt(demand) != demand || !parseInt(demand) > 0) {
     alert(msgErr);
 } else {
     let choice;
-    demand = Number.parseInt(demand);
+    demand = parseInt(demand);
 
-    if (demand <= hurgada) {
-        choice = confirm(`You can buy ${demand} tickets in Hurgada's group. Will you?`);
-
+    if (demand <= taba) {
+        choice = confirm(`You can buy ${demand} tickets in Taba's group. Will you?`);
         if (choice) {
             alert(msgAccept);
-            hurgada = hurgada - demand;
+            taba = taba - demand;
         } else {
             alert(msgDeny);
         }
-
     } else if (demand <= sharm) {
         choice = confirm(`You can buy ${demand} tickets in Sharm's group. Will you?`);
 
@@ -38,14 +36,16 @@ if (!parseInt(demand)) {
         } else {
             alert(msgDeny);
         }
-    } else if (demand <= taba) {
-        choice = confirm(`You can buy ${demand} tickets in Taba's group. Will you?`);
+    } else if (demand <= hurgada) {
+        choice = confirm(`You can buy ${demand} tickets in Hurgada's group. Will you?`);
+
         if (choice) {
             alert(msgAccept);
-            taba = taba - demand;
+            hurgada = hurgada - demand;
         } else {
             alert(msgDeny);
         }
+
     } else {
         alert(msgSorry);
     }
