@@ -1,6 +1,6 @@
 "use strict";
 function setAttributes(e, attr) {
-    attr.forEach(function (a, i) {
+    attr.forEach(function (a) {
         for (var name in a) {
             e.setAttribute(name, a[name]);
         }
@@ -8,9 +8,8 @@ function setAttributes(e, attr) {
 }
 
 function setClasses(e, classes) {
-    classes.forEach(function (a, i) {
+    classes.forEach(function (a) {
             e.classList.add(a);
-            //console.log(a[name]);
     }, e);
 }
 
@@ -50,9 +49,10 @@ const createMovieCard = () => {
     let rating = addElem('p', ['movie__rating'],
         [], "Rating: 8.6"
     );
-    body.append(title, descr,mdate,rating);
+    body.append(title, descr, mdate, rating);
     node.append(body);
     document.body.append(node);
-
+    return node
 };
-createMovieCard();
+
+console.log(createMovieCard());
