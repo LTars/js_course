@@ -36,9 +36,7 @@ class Hamburger {
     }
 
     removeTopping(topping) {
-        if (this._toppings.includes(topping)) {
-            this._toppings = this._toppings.filter(item => item !== topping);
-        }
+        this._toppings = this._toppings.filter(item => item !== topping);
 
     }
 
@@ -78,12 +76,6 @@ class Hamburger {
      *
      * Попробуйте сделать это геттером чтобы можно было обращаться как obj.price и нам вернет сумму.
      */
-    get calculatePrice() {
-        let toppingPrice = this._toppings
-            .reduce((acum, item) => acum + Hamburger.TOPPINGS[item]["price"], 0);
-        let totalPrice = Hamburger.SIZES[this._size]['price'] + Hamburger.STUFFINGS[this._stuffing]['price'] + toppingPrice;
-        return this._totalPrice = totalPrice;
-    }
 
     /**
      * Узнать калорийность
@@ -91,12 +83,19 @@ class Hamburger {
      *
      * Попробуйте сделать это геттером чтобы можно было обращаться как obj.calories и нам вернет сумму.
      */
-    get calculateCalories() {
-        let toppingCalories = this._toppings
-            .reduce((acum, item) => acum + Hamburger.TOPPINGS[item]['calories'], 0);
-        let totalCalories = Hamburger.SIZES[this._size]['calories'] + Hamburger.STUFFINGS[this._stuffing]['calories'] + toppingCalories;
-        return this._totalCalories = totalCalories;
+
+    _calculate(key) {
+        let value =
+            Hamburger.SIZES[hamburger._size][key] +
+            Hamburger.STUFFINGS[hamburger._stuffing][key] +
+            this._toppings.reduce(
+                (acum, item) => acum + Hamburger.TOPPINGS[item][key],
+                0);
+        return value;
     }
+
+    get calculateCalories() {return this._calculate('calories');}
+    get calculatePrice() {return this._calculate('price');}
 }
 
 /*
