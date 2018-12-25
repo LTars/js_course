@@ -40,8 +40,7 @@ const createMovieCard = (Card, i) => {
             {"alt": Card.image.alt},
         ]
     );
-    node.append(img);
-
+    
     let body = addElem('div', ['movie__body']);
 
     let title = addElem('h2', ['movie__title'],
@@ -58,12 +57,12 @@ const createMovieCard = (Card, i) => {
         [], Card.rating + Math.round(Math.random()*100)/10
     );
     body.append(title, descr, mdate, rating);
-    node.append(body);
+    node.append(img, body);
     return node;
 };
 let arrCards = [];
 const createCards = (cnt) => {
-    for (var i = 1; i <= cnt; i++) {
+    for (i = 1; i <= cnt; i++) {
         arrCards.push(createMovieCard(Card, i));
     }
 
