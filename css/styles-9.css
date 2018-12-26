@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: space-between;
+    align-items: start;
     flex-wrap: wrap;
     margin: 20px 40px 0;
     text-align: center;
@@ -10,12 +11,16 @@ body {
 .stopwatch {
     margin: 20px auto;
     padding: 10px;
-    max-width: 550px;
+    width: 400px;
     border: 1px solid transparent;
     border-radius: 15px;
     background-color: #3c3f41;
     color: #b7bfc6;
     font-size: 30px;
+}
+
+.name {
+    margin: 15px;
 }
 
 .stopwatch button {
@@ -28,6 +33,10 @@ body {
     cursor: pointer;
 }
 
+.stopwatch button[data-type="start"] {
+    width: 148px;
+}
+
 .stopwatch button:hover {
     color: #b7bfc6;
     background: #4f4f4f;
@@ -36,6 +45,12 @@ body {
 
 .stopwatch button:hover:active {
     box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.7);
+}
+
+.stopwatch > ul {
+    list-style: none;
+    max-height: 95px;
+    overflow-y: scroll;
 }
 
 .time {
