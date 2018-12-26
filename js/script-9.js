@@ -25,7 +25,7 @@ class Stopwatch {
     run() {
         this.searchBy("start")[0].addEventListener('click', this.timeGo.bind(this));
         this.searchBy("lap")[0].addEventListener('click', this.getLap.bind(this));
-        this.searchBy("stop")[0].addEventListener('click', this.timeStop.bind(this));
+        this.searchBy("reset")[0].addEventListener('click', this.timeReset.bind(this));
         this.status = "ready";
     }
 
@@ -54,30 +54,31 @@ class Stopwatch {
     }
 
     timePause() {
-        if (this.status === "running") {
-            clearInterval(this.timer);
-            this.searchBy("start")[0].innerText = "Start";
-            return this.status = "pause";
-        }
-        return "error"
+        clearInterval(this.timer);
+        this.searchBy("start")[0].innerText = "Continue";
+        return this.status = "pause";
     }
 
-    timeStop() {
-        if (this.status === "stopped") {
-            this.timeReset()
-        } else if (this.status !== "ready" && this.status !== "initial") {
-            clearInterval(this.timer);
-            this.searchBy("stop")[0].innerText = "Reset";
-            return this.status = "stopped";
+    /*
+        timeStop() {
+            if (this.status === "stopped") {
+                this.timeReset()
+            } else if (this.status !== "ready" && this.status !== "initial") {
+                clearInterval(this.timer);
+                this.searchBy("stop")[0].innerText = "Reset";
+                return this.status = "stopped";
+            }
         }
-    }
+    */
 
     timeReset() {
+        clearInterval(this.timer);
         this.searchBy("laps")[0].innerHTML = ' ';
         this.msec = 0;
         this.time = "00:00.0";
         this.searchBy("time")[0].innerText = this.time;
-        this.searchBy("stop")[0].innerText = "Stop";
+        this.searchBy("start")[0].innerText = "Start";
+        // this.searchBy("stop")[0].innerText = "Stop";
         return this.status = "ready";
     }
 
@@ -88,15 +89,17 @@ class Stopwatch {
         }
         return "error";
     }
-    
+
     searchBy(selector) {
         return this.box.querySelectorAll(`[data-id=stopwatch-${this.id}][data-type=${selector}]`);
     }
 }
+
 const defaultNode = document.getElementById("stopwatch-");
 let arrStopwatches = {};
 let cnt = 1;
-function setStopwatch(label = "time"+cnt, parent) {
+
+function setStopwatch(label = "time" + cnt, parent) {
     arrStopwatches[label] = new Stopwatch(parent);
     if (cnt === 1) {
         document.getElementById("maker").className = "used";

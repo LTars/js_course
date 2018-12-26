@@ -69,6 +69,10 @@ const createCards = (cnt) => {
     return arrCards;
 };
 
+arrCards.forEach(function (item, i, arrCards) {
+    
+});
+
 let cnt = prompt("Сколько карточек создать?");
 createCards(cnt);
 document.body.append(...arrCards);
