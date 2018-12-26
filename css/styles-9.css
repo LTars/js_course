@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 40px 0;
+    text-align: center;
+    background-color: #0C1021;
+}
+
+.stopwatch {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 550px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: #3c3f41;
+    color: #b7bfc6;
+    font-size: 30px;
+}
+
+.stopwatch button {
+    padding: 10px 15px;
+    border: 4px solid #0C1021;
+    border-radius: 50%;
+    background-color: #212121;
+    color: #8f979e;
+    outline: none;
+    cursor: pointer;
+}
+
+.stopwatch button:hover {
+    color: #b7bfc6;
+    background: #4f4f4f;
+    border-color: #1c2148;
+}
+
+.stopwatch button:hover:active {
+    box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.7);
+}
+
+.time {
+    margin: 20px;
+}
+
+#stopwatch- {
+    display: none;
+}
+
+.uniq {
+    width: 300px;
+    height: 300px;
+    margin-top: 20vh;
+    border: 4px solid #8f979e;
+    border-radius: 50%;
+    background-color: #3c3f41;
+    color: #b7bfc6;
+    outline: none;
+    font-size: 80px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.uniq:hover {
+    border-color: #c0cbd3;
+    background-color: #202123;
+    color: #cad4db;
+}
+
+.used {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 60px;
+    right: 60px;
+    font-size: 23px;
+    background-color: #a2a2a2;
+    border: 2px solid #4d4d4d;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.used:hover {
+    background-color: #dddddd;
+    color: #565656;
+}
+
+.used:active {
+    background-color: #c7c7c7;
+    box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.7);
+}
