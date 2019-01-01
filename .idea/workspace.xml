@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/module-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/module-9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script-9.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-9.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +18,16 @@
           <file leaf-file-name="script-9.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script-9.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+                <state relative-caret-position="330">
+                  <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="29" />
                   <folding>
                     <element signature="n#!!block;n#constructor#0;n#Stopwatch#0" />
-                    <element signature="n#!!block;n#newNode#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#timeGo#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#timeReset#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#timeStart#1;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#timePause#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#timeContinue#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#searchBy#0;n#Stopwatch#0" />
                     <element signature="n#!!block;n#toTimeForm#0;n#Stopwatch#0" />
                   </folding>
                 </state>
@@ -191,8 +193,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="654" />
-    <option name="y" value="194" />
+    <option name="x" value="142" />
+    <option name="y" value="145" />
     <option name="width" value="1832" />
     <option name="height" value="960" />
   </component>
@@ -288,15 +290,15 @@
       <workItem from="1545811747577" duration="14771000" />
       <workItem from="1545849210366" duration="1576000" />
       <workItem from="1545928946308" duration="12359000" />
-      <workItem from="1546359430513" duration="14068000" />
+      <workItem from="1546359430513" duration="15107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141930000" />
+    <option name="totallyTimeSpent" value="142969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="194" width="1832" height="960" extended-state="0" />
+    <frame x="142" y="145" width="1832" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18088737" />
@@ -723,11 +725,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script-9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#Stopwatch#0" />
-            <element signature="n#!!block;n#newNode#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#timeGo#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#timeReset#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#timeStart#1;n#Stopwatch#0" />
+            <element signature="n#!!block;n#timePause#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#timeContinue#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#searchBy#0;n#Stopwatch#0" />
             <element signature="n#!!block;n#toTimeForm#0;n#Stopwatch#0" />
           </folding>
         </state>
