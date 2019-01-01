@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/styles-10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/module-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script-10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/module-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/module-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-9.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-9.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,19 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3826389">
+    <splitter split-orientation="horizontal" split-proportion="0.61433446">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="module-10.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/module-10.html">
+          <file leaf-file-name="script-9.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/script-9.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
-                  <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+                <state relative-caret-position="322">
+                  <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
                   <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#!!block;n#constructor#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#newNode#0;n#Stopwatch#0" />
+                    <element signature="n#!!block;n#toTimeForm#0;n#Stopwatch#0" />
                   </folding>
                 </state>
               </provider>
@@ -36,41 +35,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="script-10.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/script-10.js">
+        <leaf>
+          <file leaf-file-name="module-9.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/module-9.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-                  <folding>
-                    <element signature="n#!!block;n#addUser#0" />
-                    <element signature="n#!!block;n#editUser#0" />
-                    <element signature="n#!!block;n#deleteUser#0" />
-                    <element signature="n#!!block;n#addingAll#0" />
-                    <element signature="n#!!block;n#addingById#0" />
-                    <element signature="n#!!block;n#addingNameAge#0" />
-                    <element signature="n#!!block;n#addingUpdate#0" />
-                    <element signature="n#!!block;n#createTable#0" />
-                    <element signature="n#!!block;n#respStatus#0" />
-                    <element signature="n#!!block;n#deleteAll#0" />
-                    <element signature="n#!!block;n#clearInput#0" />
-                  </folding>
+                <state relative-caret-position="476">
+                  <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/temp.html">
+          <file leaf-file-name="styles-9.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/styles-9.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="85" column="6" lean-forward="true" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="287">
+                  <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -97,7 +76,6 @@
       <find>getAll</find>
       <find>showAddUser</find>
       <find>showUp</find>
-      <find>getAll</find>
       <find>getUserById</find>
       <find>addUser</find>
       <find>delUser</find>
@@ -120,10 +98,10 @@
       <find>clearInput</find>
       <find>createResponseTable</find>
       <find>addingUpdate</find>
+      <find>sc</find>
     </findStrings>
     <replaceStrings>
       <replace>.output</replace>
-      <replace>output</replace>
       <replace>output</replace>
       <replace>userDelete</replace>
       <replace>.show</replace>
@@ -133,7 +111,6 @@
       <replace>btnGetAll</replace>
       <replace>showAddedUser</replace>
       <replace>showUpdatedUser</replace>
-      <replace>btnGetAll</replace>
       <replace>btnGetUserById</replace>
       <replace>btnAddUser</replace>
       <replace>btnDeleteUserById</replace>
@@ -191,13 +168,13 @@
         <option value="$PROJECT_DIR$/js/script-8.js" />
         <option value="$PROJECT_DIR$/css/styles-8.css" />
         <option value="$PROJECT_DIR$/js/script-7.js" />
-        <option value="$PROJECT_DIR$/js/script-9.js" />
-        <option value="$PROJECT_DIR$/html/module-9.html" />
-        <option value="$PROJECT_DIR$/css/styles-9.css" />
         <option value="$PROJECT_DIR$/css/styles-10.css" />
         <option value="$PROJECT_DIR$/html/temp.html" />
         <option value="$PROJECT_DIR$/html/module-10.html" />
         <option value="$PROJECT_DIR$/js/script-10.js" />
+        <option value="$PROJECT_DIR$/html/module-9.html" />
+        <option value="$PROJECT_DIR$/css/styles-9.css" />
+        <option value="$PROJECT_DIR$/js/script-9.js" />
       </list>
     </option>
   </component>
@@ -214,8 +191,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="39" />
+    <option name="x" value="654" />
+    <option name="y" value="194" />
     <option name="width" value="1832" />
     <option name="height" value="960" />
   </component>
@@ -224,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +233,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,21 +288,21 @@
       <workItem from="1545811747577" duration="14771000" />
       <workItem from="1545849210366" duration="1576000" />
       <workItem from="1545928946308" duration="12359000" />
-      <workItem from="1546359430513" duration="289000" />
+      <workItem from="1546359430513" duration="14068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128151000" />
+    <option name="totallyTimeSpent" value="141930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="39" width="1832" height="960" extended-state="0" />
+    <frame x="654" y="194" width="1832" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18088737" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025679" side_tool="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025679" side_tool="true" weight="0.32914573" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -374,24 +351,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="85" column="6" lean-forward="true" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/module-3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -688,30 +651,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/module-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="542">
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -738,10 +680,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script-10.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="432">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
+            <element signature="n#!!block;n#getAllUsers#0" />
             <element signature="n#!!block;n#addUser#0" />
+            <element signature="n#!!block;n#getUser#0" />
             <element signature="n#!!block;n#editUser#0" />
             <element signature="n#!!block;n#deleteUser#0" />
             <element signature="n#!!block;n#addingAll#0" />
@@ -752,6 +696,39 @@
             <element signature="n#!!block;n#respStatus#0" />
             <element signature="n#!!block;n#deleteAll#0" />
             <element signature="n#!!block;n#clearInput#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="515" column="52" lean-forward="true" selection-start-line="515" selection-start-column="52" selection-end-line="515" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module-9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#newNode#0;n#Stopwatch#0" />
+            <element signature="n#!!block;n#toTimeForm#0;n#Stopwatch#0" />
           </folding>
         </state>
       </provider>

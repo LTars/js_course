@@ -1,91 +1,95 @@
 class Stopwatch {
     constructor(parent = document.body) {
         this.id = cnt;
+        this.parent = parent;
+        this.name = `#${cnt}`;
         this.box = '';
-        this.msec = 0;
-        this.time = "00:00.0";
+        this.markBeg = 0;
+        this.markEnd = 0;
+        this.time = '';
         this.timer = '';
         this.status = 'initial';
-        this.newNode(parent);
-        this.run();
     }
 
-    newNode(parent) {
+    newNode() {
         let e = defaultNode.cloneNode(true);
         e.id += this.id;
         for (let i = 0; i < e.children.length; i++) {
             e.children[i].setAttribute("data-id", `stopwatch-${this.id}`);
             e.children[i].id += this.id;
         }
-        parent.append(e);
-        e.children[0].textContent = "#" + this.id;
+        this.parent.append(e);
+        e.children[0].textContent = this.name;
         this.box = document.getElementById(`stopwatch-${this.id}`);
+        this.time = this.searchBy("time")[0];
     }
 
     run() {
-        this.searchBy("start")[0].addEventListener('click', this.timeGo.bind(this));
+        this.searchBy("start")[0].addEventListener('click', this.btnStart.bind(this));
         this.searchBy("lap")[0].addEventListener('click', this.getLap.bind(this));
         this.searchBy("reset")[0].addEventListener('click', this.timeReset.bind(this));
         this.status = "ready";
     }
 
-    timeGo() {
-        if (this.status === "ready" || this.status === "pause") {
-            let reffer = this;
-            this.timer = setInterval(function () {
-                reffer.msec += 1;
-                reffer.time = reffer.toTimeForm(reffer.msec);
-                reffer.searchBy("time")[0].innerText = reffer.time;
-            }, 100);
-            this.searchBy("start")[0].innerText = "Pause";
-            return this.status = "running";
+    btnStart() {
+        if (this.status === "ready") {
+            this.timeStart();
         } else if (this.status === "running") {
             this.timePause();
+        } else if (this.status === "pause") {
+            this.timeContinue();
         }
         return "error"
     }
 
-    toTimeForm(timestamp) {
-        let date = new Date(timestamp * 100);
-        let msec = date.getMilliseconds() / 100;
-        let min = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
-        let sec = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds();
-        return `${min}:${sec}.${msec}`;
+    timeStart() {
+        this.markBeg = Date.now();
+        this.timer = setInterval(() => {
+            this.time.innerText = Stopwatch.toTimeForm(Date.now() - this.markBeg);
+        }, 100);
+        this.searchBy("start")[0].innerText = "Pause";
+        this.status = "running";
     }
 
     timePause() {
+        this.markEnd = Date.now();
         clearInterval(this.timer);
         this.searchBy("start")[0].innerText = "Continue";
         return this.status = "pause";
     }
 
-    /*
-        timeStop() {
-            if (this.status === "stopped") {
-                this.timeReset()
-            } else if (this.status !== "ready" && this.status !== "initial") {
-                clearInterval(this.timer);
-                this.searchBy("stop")[0].innerText = "Reset";
-                return this.status = "stopped";
-            }
-        }
-    */
+    timeContinue() {
+        this.markBeg = this.markBeg + (Date.now() - this.markEnd);
+        this.timer = this.timer = setInterval(() => {
+            this.time.innerText = Stopwatch.toTimeForm(Date.now() - this.markBeg);
+        }, 100);
+        this.searchBy("start")[0].innerText = "Pause";
+        this.status = "running";
+    }
+
+    timerGo() {
+
+    }
 
     timeReset() {
         clearInterval(this.timer);
         this.searchBy("laps")[0].innerHTML = ' ';
-        this.msec = 0;
-        this.time = "00:00.0";
-        this.searchBy("time")[0].innerText = this.time;
+        this.time.innerText = "00:00.0";
         this.searchBy("start")[0].innerText = "Start";
-        // this.searchBy("stop")[0].innerText = "Stop";
+        this.markBeg = 0;
+        this.markEnd = 0;
         return this.status = "ready";
     }
 
     getLap() {
-        if (this.status !== "ready" && this.time !== this.searchBy("laps")[0].firstChild.innerText) {
-            this.searchBy("laps")[0].insertAdjacentHTML('afterbegin', `<li>${this.time}</li>`);
-            return this.time;
+        if (this.status !== "ready" && this.time.innerText !== this.searchBy("laps")[0].firstChild.innerText) {
+            this.searchBy("laps")[0].insertAdjacentHTML('afterbegin', `<li>${this.time.innerText}</li>`);
+            return this.time.innerText;
+        } else {
+            let lap = this.searchBy("laps")[0].firstChild;
+            lap.style = "color: red";
+            console.log(lap, lap.style);
+            setTimeout(() => lap.style = "", 1000)
         }
         return "error";
     }
@@ -93,19 +97,48 @@ class Stopwatch {
     searchBy(selector) {
         return this.box.querySelectorAll(`[data-id=stopwatch-${this.id}][data-type=${selector}]`);
     }
+
+    static toTimeForm(timestamp) {
+        let date = new Date(timestamp);
+        let msec = Math.floor(date.getMilliseconds() / 100);
+        let min = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
+        let sec = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds();
+        return `${min}:${sec}.${msec}`;
+    }
 }
 
 const defaultNode = document.getElementById("stopwatch-");
-let arrStopwatches = {};
+let arrStopwatches = [];
 let cnt = 1;
 
-function setStopwatch(label = "time" + cnt, parent) {
-    arrStopwatches[label] = new Stopwatch(parent);
-    if (cnt === 1) {
-        document.getElementById("maker").className = "used";
+function getAttr() {
+    let input = document.getElementById("maker").children[0];
+    return input.value.split("; ", 2);
+}
+
+function clearAttr() {
+    let input = document.getElementById("maker").children[0];
+    input.value = "";
+}
+
+function setStopwatch() {
+    let arr = getAttr();
+    if (arr[1]) {
+        arrStopwatches.push(new Stopwatch(document.getElementById(arr[1])));
+        console.log(document.getElementById(arr[1]));
+    } else {
+        arrStopwatches.push(new Stopwatch());
     }
+    cnt === 1 ? document.getElementById("maker").className = "used" : null;
+    if (arr[0]) {
+        arrStopwatches[cnt - 1].name = arr[0];
+    }
+    arrStopwatches[cnt - 1].newNode();
+    arrStopwatches[cnt - 1].run();
+    clearAttr();
+
     cnt++;
 }
 
-document.getElementById("maker").addEventListener('click', setStopwatch);
+document.getElementById("maker").children[1].addEventListener('click', setStopwatch);
 
