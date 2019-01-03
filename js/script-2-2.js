@@ -2,26 +2,27 @@
 
 //PART TWO
 const passwords = ['qwerty', '111qwe', '123123', 'r4nd0mp4zzw0rd'];
-const messages = ['Enter your password: ',
-    'Canceled',
-    'You have run out of attempts, your account has been locked',
-    'Welcome, dude!'];
+const msgEnterPass = 'Enter your password: ';
+const msgCanceled = 'Canceled';
+const msgAccBlocked = 'You have run out of attempts, your account has been locked';
+const msgWelcome = 'Welcome, dude!';
 let attempts = 3;
+let input;
 
 do {
-    input = prompt(messages[0]);
+    input = prompt(msgEnterPass);
     if (input === null) {
-        alert(messages[1]);
+        alert(msgCanceled);
         break;
     } else if (passwords.indexOf(input) === -1) {
         attempts -= 1;
         if (attempts === 0) {
-            alert(messages[2]);
+            alert(msgAccBlocked);
             break;
         }
         alert(`Wrong pass. You have ${attempts} attempts`);
     } else {
-        alert(messages[3]);
+        alert(msgWelcome);
         break;
     }
 } while (true);

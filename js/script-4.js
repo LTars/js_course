@@ -11,9 +11,9 @@ function Cashier(name, productDatabase) {
     this.name = name;
     this.productDatabase = productDatabase;
     this.customerMoney = 0;
-    this.getCustomerMoney = function (value) {
-        this.customerMoney = value;
-    };
+
+    this.getCustomerMoney = (value) => this.customerMoney = value;
+
     this.countTotalPrice = function (order) {
         let totalPrice = 0;
         for (const key in order) {
@@ -21,22 +21,14 @@ function Cashier(name, productDatabase) {
         }
         return totalPrice;
     };
-    this.countChange = function () {
-        if (this.customerMoney < totalPrice) {
-            return null;
-        } else {
-            return this.customerMoney - totalPrice;
-        }
-    };
-    this.onSuccess = function (change) {
-        console.log(`Thank you for your purchase, your change  ${change}`)
-    };
-    this.onError = function () {
-        console.log('Sorry, you don\'t have enough money');
-    };
-    this.reset = function () {
-        this.customerMoney = 0;
-    };
+
+    this.countChange = () => this.customerMoney < totalPrice ? null : this.customerMoney - totalPrice;
+
+    this.onSuccess = (change) => console.log(`Thank you for your purchase, your change  ${change}`);
+
+    this.onError = () => console.log('Sorry, you don\'t have enough money');
+
+    this.reset = () => this.customerMoney = 0;
 }
 
 const order = {
