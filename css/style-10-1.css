@@ -1,0 +1,94 @@
+body {
+    background-color: #404348;
+    color: #aab3ba;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    margin: 20px auto;
+    padding: 10px;
+    width: 450px;
+    height: auto;
+    border: 1px solid #909090;
+    text-align: center;
+}
+
+main > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-i {
+    flex-direction: column;
+}
+
+.wrap-b {
+    justify-content: space-around;
+    align-content: space-around;
+    height: 80px;
+    width: 200px;
+}
+
+.btn {
+    width: 92px;
+}
+
+.btn_add {
+    order: 1;
+}
+.btn_get-all-users {
+    order: 2;
+}
+.btn_user-by-id {
+    order: 3;
+}
+.btn_up {
+    order: 4;
+}
+.btn_del {
+    order: 5;
+}
+
+table, thead th, tbody td {
+    border: 1px solid #909090;
+}
+
+table {
+    margin: 10px auto;
+}
+
+input {
+    margin: 0 0 5px;
+    background-color: #54585d;
+    color: #ededed;
+}
+
+button {
+    background-color: #54585d;
+    color: #ededed;
+}
+
+input::placeholder {
+    color: #949da4;
+}
+
+h2 {
+    margin: 10px;
+
+}
+
+.id {
+    min-width: 200px;
+}
+
+.name {
+    min-width: 130px;
+}
+
+.age {
+    min-width: 80px;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>module 10-1</title>
+    <link rel="stylesheet" href="../css/style-10-1.css">
+</head>
+<body>
+
+<main>
+        <div class="wrap-i">
+            <input type="text"
+                   name="up_ID"
+                   class="input input_id"
+                   placeholder="enter ID">
+
+            <input type="text"
+                   name="up_name"
+                   class="input input_name"
+                   placeholder="enter new name">
+
+            <input type="text"
+                   name="up_age"
+                   class="input input_age"
+                   placeholder="enter new age">
+        </div>
+
+        <div class="wrap-b">
+            <button id="getAllUsers" class="btn btn_get-all-users">
+                Get all users
+            </button>
+            <button id="editUser" class="btn btn_up">
+                Update
+            </button>
+            <button id="addUser" class="btn btn_add">
+                Add user
+            </button>
+            <button id="getUser" class="btn btn_user-by-id">
+                Get user
+            </button>
+            <button id="deleteUser" class="btn btn_del">
+                Delete User
+            </button>
+        </div>
+
+        <table>
+            <thead>
+            <tr>
+                <th class="id">ID</th>
+                <th class="name">NAME</th>
+                <th class="age">AGE</th>
+            </tr>
+            </thead>
+            <tbody class="show"></tbody>
+        </table>
+    <p class="status"></p>
+</main>
+
+<script src="../js/script-10-1.js"></script>
+</body>
+</html>
