@@ -41,19 +41,20 @@ function handleBtnClick(event) {
     }
 }
 
-function getAllUsers(evt) {
+function getAllUsers() {
     fetch(url)
         .then(response => response.json())
         .then(data => processing(data))
         .catch(error => console.log(error));
 }
 
-function addUser(evt) {
+function addUser() {
     if (!isValidData()) return;
+    const {age, name} = form.elements;
 
     const post = {
-        name: `${form.elements["name"].value}`,
-        age: `${form.elements["age"].value}`
+        name: `${age.value}`,
+        age: `${name.value}`
     };
     fetch(url, {
         method: 'POST',
@@ -67,10 +68,11 @@ function addUser(evt) {
         .catch(error => console.log(error));
 }
 
-function getUser(evt) {
-    if (!form.elements["id"].value) return respStatus(msgNoData);
+function getUser() {
+    const {id} = form.elements;
+    if (!id.value) return respStatus(msgNoData);
 
-    fetch(`${url}${form.elements["id"].value}`)
+    fetch(`${url}${id.value}`)
         .then(response => response.json())
         .then(data => processing(data))
         .catch(error => {
@@ -79,14 +81,15 @@ function getUser(evt) {
         });
 }
 
-function editUser(evt) {
+function editUser() {
     if (!isValidData()) return;
+    const {id, name, age} = form.elements;
 
     let update = {};
-    update.name = form.elements["name"].value;
-    update.age = form.elements["age"].value;
+    update.name = name.value;
+    update.age = age.value;
     console.log(update);
-    fetch(`${url}${form.elements["id"].value}`, {
+    fetch(`${url}${id.value}`, {
         method: 'PUT',
         body: JSON.stringify(update),
         headers: {
@@ -98,11 +101,12 @@ function editUser(evt) {
 }
 
 function deleteUser(evt) {
+    const {id} = form.elements;
     getUser(evt);
-    if (!form.elements["id"].value) return respStatus(msgNoData);
+    if (!id.value) return respStatus(msgNoData);
     setTimeout(() => {
         if (statusBar.innerText === msgErr) return;
-        fetch(`${url}${form.elements["id"].value}`, {
+        fetch(`${url}${id.value}`, {
             method: 'DELETE'
         })
             .then(response => respStatus(response.status))
@@ -110,26 +114,25 @@ function deleteUser(evt) {
     }, 0)
 }
 
-function processing(data) {
+function processing({data}) {
+    console.log(data);
     let HTMLString;
-    if (data.data.name) {
-        HTMLString = createTable(data.data);
+    if (data.name) {
+        HTMLString = createTable(data);
     } else {
-        HTMLString = data.data.reduce((acc, el) => acc += createTable(el), '');
+        HTMLString = data.reduce((acc, el) => acc += createTable(el), '');
     }
     show.insertAdjacentHTML('afterbegin', `${HTMLString}`);
     form.reset();
 }
 
 function createTable({id, name, age, _id}) {
-    if (id) {
-        return `<tr>
+        return id ? `<tr>
         <td class="id">${id}</td>
         <td class="name">${name}</td>
         <td class="age">${age}</td>
-      </tr>`;
-    }
-    return `<tr>
+      </tr>`:
+     `<tr>
         <td class="id">${_id}</td>
         <td class="name">${name}</td>
         <td class="age">${age}</td>
@@ -160,11 +163,13 @@ function deleteAll() {
 }
 
 function isValidData() {
-    if (!form["name"].value || !form["age"].value) {
+    const {name, age} = form.elements;
+
+    if (!name.value || !age.value) {
         respStatus(msgNoData);
         return false;
     }
-    if (!isNumeric(form["age"].value)) {
+    if (!isNumeric(age.value)) {
         respStatus(msgNaN);
         return false;
     }

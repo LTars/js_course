@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style-11.css">
+    <link rel="stylesheet" href="style-11.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
 
 <section class="filter">
     <form class="form js-form">
-        <section>
+        <section data-group="size">
             <h2>Screen size</h2>
             <ul>
                 <li><label><input type="checkbox" name="size" value="13">&nbsp;13"</label></li>
@@ -25,7 +25,7 @@
                 <li><label><input type="checkbox" name="size" value="17">&nbsp;17"</label></li>
             </ul>
         </section>
-        <section>
+        <section data-group="color">
             <h2>Color</h2>
             <ul>
                 <li><label><input type="checkbox" name="color" value="white">&nbsp;white</label></li>
@@ -33,7 +33,7 @@
                 <li><label><input type="checkbox" name="color" value="black">&nbsp;black</label></li>
             </ul>
         </section>
-        <section>
+        <section data-group="release_date">
             <h2>Release date</h2>
             <ul>
                 <li><label><input type="checkbox" name="release_date" value="2015">&nbsp;2015</label></li>
@@ -41,8 +41,8 @@
                 <li><label><input type="checkbox" name="release_date" value="2017">&nbsp;2017</label></li>
             </ul>
         </section>
-        <button type="submit">Filter</button>
-        <button type="reset">Clear</button>
+        <button id="filter" type="submit">Filter</button>
+        <button id="clear" type="reset">Clear</button>
     </form>
 </section>
 
@@ -61,6 +61,6 @@
 </template>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
-<script src="../js/script-11.js"></script>
+<script src="script-11.js"></script>
 </body>
 </html>
