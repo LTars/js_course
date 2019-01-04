@@ -17,12 +17,12 @@ main {
     text-align: center;
 }
 
-main > div {
+.wrap-b, .form-js{
     display: flex;
     flex-wrap: wrap;
 }
 
-.wrap-i {
+.form-js {
     flex-direction: column;
 }
 
@@ -40,16 +40,16 @@ main > div {
 .btn_add {
     order: 1;
 }
-.btn_get-all-users {
+.btn__get-all {
     order: 2;
 }
-.btn_user-by-id {
+.btn__get {
     order: 3;
 }
-.btn_up {
+.btn__edit {
     order: 4;
 }
-.btn_del {
+.btn__del {
     order: 5;
 }
 
@@ -73,6 +73,7 @@ button {
 }
 
 input::placeholder {
+    padding-left: 5px;
     color: #949da4;
 }
 
@@ -89,6 +90,45 @@ h2 {
     min-width: 130px;
 }
 
+.name::first-letter {
+    text-transform: uppercase;
+}
 .age {
     min-width: 80px;
 }
+
+/*.table {
+    display: block;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.table::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}*/
+
+.status {
+    min-width: 200px;
+    margin: 0;
+}
+
+/*
+Filin	54
+Aista	49
+Samuel	37
+Legolas	128
+Fiord	77
+Neko	4
+Solomon	12
+Solly	14
+Lusy	32
+Fiona	16
+Falcrit	512
+Kelimvor	34
+Alisher	28
+Lafalgar	36
+Seluna	12584
+Grog	33
+Luciel	42*/

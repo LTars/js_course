@@ -24,6 +24,7 @@ ul {
 .item {
     width: 300px;
     margin: 40px 20px 0;
+    overflow: fragments;
     padding: 20px;
     border: 1px solid black;
 }

@@ -14,15 +14,16 @@ do {
     if (input === null) {
         alert(msgCanceled);
         break;
-    } else if (passwords.indexOf(input) === -1) {
-        attempts -= 1;
-        if (attempts === 0) {
-            alert(msgAccBlocked);
-            break;
-        }
-        alert(`Wrong pass. You have ${attempts} attempts`);
-    } else {
+    }
+    if (passwords.includes(input)) { //(passwords.indexOf(input) !== -1)
         alert(msgWelcome);
+        break;
+    } else {
+        attempts -= 1;
+        alert(`Wrong pass. You have ${attempts} attempts`);
+    }
+    if (attempts === 0) {
+        alert(msgAccBlocked);
         break;
     }
 } while (true);

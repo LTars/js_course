@@ -2,15 +2,17 @@
 
 const show = document.querySelector('.show');
 
-const inputId = document.querySelector('.input_id');
-const inputName = document.querySelector('.input_name');
-const inputAge = document.querySelector('.input_age');
+const form = document.querySelector('.form-js');
 
 const statusBar = document.querySelector('.status');
 
-const url = 'https://test-users-api.herokuapp.com/users/';
-
 const btn = document.querySelector('.wrap-b');
+
+const url = "https://test-users-api.herokuapp.com/users/";
+const msgErr = "Something went wrong..";
+const msgNoData = "Please, enter relevant info";
+const msgNaN = "Please, enter round numeric value for age";
+const msgDeleted = "User Deleted";
 
 btn.addEventListener("click", handleBtnClick);
 
@@ -18,6 +20,7 @@ function handleBtnClick(event) {
     const target = event.target;
 
     if (target.nodeName !== "BUTTON") return;
+    deleteAll();
 
     switch (target.id) {
         case 'getAllUsers':
@@ -41,14 +44,16 @@ function handleBtnClick(event) {
 function getAllUsers(evt) {
     fetch(url)
         .then(response => response.json())
-        .then(data => addingAll(data))
+        .then(data => processing(data))
         .catch(error => console.log(error));
 }
 
 function addUser(evt) {
+    if (!isValidData()) return;
+
     const post = {
-        name: `${inputName.value}`,
-        age: `${Number(inputAge.value)}`
+        name: `${form.elements["name"].value}`,
+        age: `${form.elements["age"].value}`
     };
     fetch(url, {
         method: 'POST',
@@ -58,87 +63,95 @@ function addUser(evt) {
             'Content-Type': 'application/json',
         }
     }).then(response => response.json())
-        .then(data => addingNameAge(data))
+        .then(data => processing(data))
         .catch(error => console.log(error));
-    clearInput();
 }
 
 function getUser(evt) {
-    fetch(`${url}${inputId.value}`)
+    if (!form.elements["id"].value) return respStatus(msgNoData);
+
+    fetch(`${url}${form.elements["id"].value}`)
         .then(response => response.json())
-        .then(data => addingById(data))
-        .catch(error => console.log(error));
-    clearInput();
+        .then(data => processing(data))
+        .catch(error => {
+            respStatus(msgErr);
+            console.log(error);
+        });
 }
 
 function editUser(evt) {
+    if (!isValidData()) return;
+
     let update = {};
-    if (inputName.value === '' || inputAge.value === '') {
-        return alert("Error");
-    } else {
-        update.name = inputName.value;
-        update.age = inputAge.value;
-    }
+    update.name = form.elements["name"].value;
+    update.age = form.elements["age"].value;
     console.log(update);
-    fetch(`${url}${inputId.value}`, {
+    fetch(`${url}${form.elements["id"].value}`, {
         method: 'PUT',
         body: JSON.stringify(update),
         headers: {
             "Content-type": "application/json; charset=UTF-8"
         }
     }).then(response => response.json())
-        .then(data => addingUpdate(data))
+        .then(data => processing(data))
         .catch(error => console.log(error));
-    clearInput();
 }
 
 function deleteUser(evt) {
-    fetch(`${url}${inputId.value}`, {
-        method: 'DELETE'
-    })
-        .then(response => respStatus(response.status))
-        .catch(error => console.log(error));
-    clearInput();
-    deleteAll()
+    getUser(evt);
+    if (!form.elements["id"].value) return respStatus(msgNoData);
+    setTimeout(() => {
+        if (statusBar.innerText === msgErr) return;
+        fetch(`${url}${form.elements["id"].value}`, {
+            method: 'DELETE'
+        })
+            .then(response => respStatus(response.status))
+            .catch(error => console.log(error));
+    }, 0)
 }
 
-function addingAll(data) {
-    deleteAll();
-    const HTMLString = data.data.reduce((acc, el) => acc += createTable(el), '');
-show.insertAdjacentHTML('afterbegin', `${HTMLString}`);
-}
-
-function addingById(data) {
-    deleteAll();
-    const HTMLString = createTable(data.data);
-show.insertAdjacentHTML('afterbegin', `${HTMLString}`);
-}
-
-function addingNameAge(data) {
-    deleteAll();
-    const HTMLString = createTable(data.data);
+function processing(data) {
+    let HTMLString;
+    if (data.data.name) {
+        HTMLString = createTable(data.data);
+    } else {
+        HTMLString = data.data.reduce((acc, el) => acc += createTable(el), '');
+    }
     show.insertAdjacentHTML('afterbegin', `${HTMLString}`);
+    form.reset();
 }
 
-function addingUpdate(data) {
-    deleteAll();
-    const HTMLString = createTable(data.data);
-show.insertAdjacentHTML('afterbegin', `${HTMLString}`);
-}
-
-
-function createTable({id, name, age}) {
-    return `<tr>
+function createTable({id, name, age, _id}) {
+    if (id) {
+        return `<tr>
         <td class="id">${id}</td>
         <td class="name">${name}</td>
-        <td class="age">${Number(age)}</td>
+        <td class="age">${age}</td>
+      </tr>`;
+    }
+    return `<tr>
+        <td class="id">${_id}</td>
+        <td class="name">${name}</td>
+        <td class="age">${age}</td>
       </tr>`;
 }
 
 function respStatus(status) {
-    statusBar.innerHTML = status === 200 ?
-        `${inputId.value} user deleted` :
-        'Something went wrong'
+    switch (status) {
+        case 200:
+            status = msgDeleted;
+            break;
+        case msgNaN:
+            status = msgNaN;
+            break;
+        case msgNoData:
+            status = msgNoData;
+            break;
+        default:
+            status = msgErr;
+            break;
+    }
+    statusBar.innerHTML = status;
 }
 
 function deleteAll() {
@@ -146,7 +159,18 @@ function deleteAll() {
     show.innerHTML = '';
 }
 
-function clearInput() {
-    const inputs = [inputId, inputName, inputAge];
-    inputs.forEach(input => input.value = "");
+function isValidData() {
+    if (!form["name"].value || !form["age"].value) {
+        respStatus(msgNoData);
+        return false;
+    }
+    if (!isNumeric(form["age"].value)) {
+        respStatus(msgNaN);
+        return false;
+    }
+    return true;
+}
+
+function isNumeric(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n) && Number.isInteger(Number(n));
 }

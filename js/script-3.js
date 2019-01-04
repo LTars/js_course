@@ -1,5 +1,8 @@
 'use strict';
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
+const msgError = "Error! Login must be between 4 and 16 characters";
+const msgInUse = "This login is already in use";
+const msgSuccess = "Login successfully added!";
 
 const isLoginValid = function (login) {
     return login.length >= 4 && login.length <= 16;
@@ -11,12 +14,12 @@ const isLoginUnique = function (login) {
 
 const addLogin = function (login) {
     if (!isLoginValid(login)) {
-        return "Error! Login must be between 4 and 16 characters";
+        return msgError;
     } else if (isLoginUnique(login)) {
         logins.push(login);
-        return "Login successfully added!";
+        return msgSuccess;
     } else {
-        return "This login is already in use";
+        return msgInUse;
     }
 };
 

@@ -11,41 +11,40 @@
 <body>
 
 <main>
-        <div class="wrap-i">
-            <input type="text"
-                   name="up_ID"
-                   class="input input_id"
-                   placeholder="enter ID">
+    <form class="form-js">
+        <input type="text"
+               name="id"
+               class="input input_id"
+               placeholder="Enter ID">
+        <input type="text"
+               name="name"
+               class="input input_name"
+               placeholder="Enter new name">
+        <input type="text"
+               name="age"
+               class="input input_age"
+               placeholder="Enter new age">
+    </form>
 
-            <input type="text"
-                   name="up_name"
-                   class="input input_name"
-                   placeholder="enter new name">
+    <div class="wrap-b">
+        <button id="getAllUsers" class="btn btn__get-all">
+            Get all users
+        </button>
+        <button id="editUser" class="btn btn__edit">
+            Update
+        </button>
+        <button id="addUser" class="btn btn_add">
+            Add user
+        </button>
+        <button id="getUser" class="btn btn__get">
+            Get user
+        </button>
+        <button id="deleteUser" class="btn btn__del">
+            Delete User
+        </button>
+    </div>
 
-            <input type="text"
-                   name="up_age"
-                   class="input input_age"
-                   placeholder="enter new age">
-        </div>
-
-        <div class="wrap-b">
-            <button id="getAllUsers" class="btn btn_get-all-users">
-                Get all users
-            </button>
-            <button id="editUser" class="btn btn_up">
-                Update
-            </button>
-            <button id="addUser" class="btn btn_add">
-                Add user
-            </button>
-            <button id="getUser" class="btn btn_user-by-id">
-                Get user
-            </button>
-            <button id="deleteUser" class="btn btn_del">
-                Delete User
-            </button>
-        </div>
-
+    <div class="table">
         <table>
             <thead>
             <tr>
@@ -56,6 +55,7 @@
             </thead>
             <tbody class="show"></tbody>
         </table>
+    </div>
     <p class="status"></p>
 </main>
 
