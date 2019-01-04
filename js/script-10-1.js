@@ -24,16 +24,16 @@ function handleBtnClick(event) {
 
     switch (target.id) {
         case 'getAllUsers':
-            getAllUsers(target);
+            getAllUsers();
             break;
         case 'addUser':
-            addUser(target);
+            addUser();
             break;
         case 'getUser':
-            getUser(target);
+            getUser();
             break;
         case 'editUser':
-            editUser(target);
+            editUser();
             break;
         case 'deleteUser':
             deleteUser(target);
@@ -53,8 +53,8 @@ function addUser() {
     const {age, name} = form.elements;
 
     const post = {
-        name: `${age.value}`,
-        age: `${name.value}`
+        name: `${name.value}`,
+        age: `${age.value}`
     };
     fetch(url, {
         method: 'POST',
@@ -88,7 +88,6 @@ function editUser() {
     let update = {};
     update.name = name.value;
     update.age = age.value;
-    console.log(update);
     fetch(`${url}${id.value}`, {
         method: 'PUT',
         body: JSON.stringify(update),
@@ -115,7 +114,6 @@ function deleteUser(evt) {
 }
 
 function processing({data}) {
-    console.log(data);
     let HTMLString;
     if (data.name) {
         HTMLString = createTable(data);

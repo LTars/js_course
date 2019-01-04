@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/module-11/module-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-11/script-11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-11/style-11.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-11.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/module-11.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script-10-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-10-1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-11.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +16,8 @@
       <file leaf-file-name="script-10-1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script-10-1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="166">
+              <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -51,7 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getAllUsers</find>
       <find>editeUser</find>
       <find>addNameAge</find>
       <find>createUser</find>
@@ -81,6 +73,7 @@
       <find>status</find>
       <find>prevImagesArray</find>
       <find>createFullview</find>
+      <find>consol</find>
     </findStrings>
     <replaceStrings>
       <replace>btnUpdateUserById</replace>
@@ -289,12 +282,12 @@
       <workItem from="1546359430513" duration="16453000" />
       <workItem from="1546463917917" duration="14241000" />
       <workItem from="1546534189235" duration="9524000" />
-      <workItem from="1546617350622" duration="9955000" />
+      <workItem from="1546617350622" duration="10174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199037000" />
+    <option name="totallyTimeSpent" value="199256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="48" width="1670" height="953" extended-state="0" />
@@ -719,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script-10-1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="166">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
         </state>
       </provider>
     </entry>
