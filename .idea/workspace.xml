@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-4.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-8.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-8.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,17 +12,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="script-4.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/script-4.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.7901003">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="module-8.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/module-8.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="440">
+                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script-8.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/script-8.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="440">
+                  <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#35#952#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="module-8.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/module-8.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="902">
+                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btnGetAllUsers</find>
-      <find>updateUser</find>
       <find>getAllUsers</find>
       <find>editeUser</find>
       <find>addNameAge</find>
@@ -66,6 +92,8 @@
       <find>form</find>
       <find>deleteAll</find>
       <find>status</find>
+      <find>prevImagesArray</find>
+      <find>createFullview</find>
     </findStrings>
     <replaceStrings>
       <replace>btnUpdateUserById</replace>
@@ -132,7 +160,6 @@
         <option value="$PROJECT_DIR$/html/module-7.html" />
         <option value="$PROJECT_DIR$/js/script-7add.js" />
         <option value="$PROJECT_DIR$/html/module-8.html" />
-        <option value="$PROJECT_DIR$/js/script-8.js" />
         <option value="$PROJECT_DIR$/css/styles-8.css" />
         <option value="$PROJECT_DIR$/js/script-7.js" />
         <option value="$PROJECT_DIR$/html/module-9.html" />
@@ -155,6 +182,7 @@
         <option value="$PROJECT_DIR$/css/style-10-1.css" />
         <option value="$PROJECT_DIR$/js/script-10-1.js" />
         <option value="$PROJECT_DIR$/js/script-4.js" />
+        <option value="$PROJECT_DIR$/js/script-8.js" />
       </list>
     </option>
   </component>
@@ -271,18 +299,18 @@
       <workItem from="1546359430513" duration="16453000" />
       <workItem from="1546463917917" duration="14241000" />
       <workItem from="1546534189235" duration="9524000" />
-      <workItem from="1546617350622" duration="394000" />
+      <workItem from="1546617350622" duration="3221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189476000" />
+    <option name="totallyTimeSpent" value="192303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="48" width="1670" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3076441" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30701753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025679" side_tool="true" weight="0.32914573" />
@@ -334,7 +362,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -438,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles-8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../goit-fe-course/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7506">
@@ -456,13 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -533,6 +547,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="n#form#0;n#section#0;n#body#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-10.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2372">
-          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/module-10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -585,24 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-2-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script-3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -655,33 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-10-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style-10-1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2750">
           <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-10-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="117" column="79" lean-forward="true" selection-start-line="117" selection-start-column="79" selection-end-line="117" selection-end-column="79" />
-          <folding>
-            <element signature="n#!!block;n#getAllUsers#0" />
-            <element signature="n#!!block;n#addUser#0" />
-            <element signature="n#!!block;n#editUser#0" />
-            <element signature="n#!!block;n#createTable#0" />
-            <element signature="n#!!block;n#deleteAll#0" />
-            <element signature="n#!!block;n#isValidData#0" />
-            <element signature="n#!!block;n#isNumeric#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,8 +667,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script-4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="308">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!block;n#addingAll#0" />
+            <element signature="n#!!block;n#addingById#0" />
+            <element signature="n#!!block;n#addingUpdate#0" />
+            <element signature="n#!!block;n#deleteAll#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-2-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-10-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#getAllUsers#0" />
+            <element signature="n#!!block;n#addUser#0" />
+            <element signature="n#!!block;n#editUser#0" />
+            <element signature="n#!!block;n#createTable#0" />
+            <element signature="n#!!block;n#respStatus#0" />
+            <element signature="n#!!block;n#deleteAll#0" />
+            <element signature="n#!!block;n#isValidData#0" />
+            <element signature="n#!!block;n#isNumeric#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module-10-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles-8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module-8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="e#35#952#0" />
+          </folding>
         </state>
       </provider>
     </entry>

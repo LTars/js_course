@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const galleryItems = [
     {
@@ -33,62 +33,62 @@ const galleryItems = [
     }
 ];
 
+const fullImages = document.querySelector(".fullview");
+const prevImages = document.querySelector(".preview");
+
+let prevImagesArray;
+
 document.addEventListener('DOMContentLoaded', createGallery);
 
 function createGallery() {
-
-    const fullImages = document.querySelector(".fullview");
-    const prevImages = document.querySelector(".preview");
-
     prevImages.addEventListener('click', show);
 
-    function createPrevImg(elem) {
-        let liNode = document.createElement("li");
-        let imgNode = document.createElement("img");
-        imgNode.setAttribute("src", elem.preview);
-        imgNode.setAttribute("alt", elem.alt);
-        imgNode.dataset.fullview = elem.fullview;
-        liNode.append(imgNode);
-        return liNode;
-    }
-
-    function createPrevImgGallery(obj, number = 1) {
-        let imgArray = obj.map(el => createPrevImg(el));
-
-        createFullview(imgArray[number - 1].firstElementChild.dataset.fullview, imgArray[number].firstElementChild.alt);
-        imgArray[number - 1].classList.add("active");
-        return imgArray;
-    }
-
-    function createFullview(src = 'img/fullview-1.jpg', alt = 'alt text 1') {
-        let fullImagesNode = document.createElement('img');
-        fullImagesNode.setAttribute("src", src);
-        fullImagesNode.setAttribute("alt", alt);
-        fullImages.append(fullImagesNode);
-    }
-
-    let prevImagesArray = createPrevImgGallery(galleryItems, 1);
+    prevImagesArray = createPrevImgGallery(galleryItems, 0);
 
     prevImages.append(...prevImagesArray);
+}
 
-    function show({target}) {
-        if (target.nodeName !== "IMG")
-            return;
+function createPrevImg(elem) {
+    let liNode = document.createElement("li");
+    let imgNode = document.createElement("img");
+    imgNode.setAttribute("src", elem.preview);
+    imgNode.setAttribute("alt", elem.alt);
+    imgNode.dataset.fullview = elem.fullview;
+    liNode.append(imgNode);
+    return liNode;
+}
 
-        let uri = target.dataset.fullview;
-        let altText = target.alt;
-        fullImages.firstElementChild.src = uri;
-        fullImages.firstElementChild.alt = altText;
+function createPrevImgGallery(obj) {
+    let imgArray = obj.map(elem => createPrevImg(elem));
+    console.log(imgArray, imgArray[0]);
+    createFullView(imgArray[0].firstElementChild.dataset.fullview, imgArray[0].firstElementChild.alt);
+    imgArray[0].classList.add("active");
+    return imgArray;
+}
+
+function createFullView(src, alt) {
+    let fullImagesNode = document.createElement('img');
+    fullImagesNode.setAttribute("src", src);
+    fullImagesNode.setAttribute("alt", alt);
+    fullImages.append(fullImagesNode);
+}
+
+function show({target}) {
+    if (target.nodeName !== "IMG")
+        return;
+
+    let url = target.dataset.fullview;
+    let altText = target.alt;
+    fullImages.firstElementChild.src = url;
+    fullImages.firstElementChild.alt = altText;
 
 
-        prevImagesArray.forEach(link => {
+    prevImagesArray.forEach(link => {
 
-            if (link.firstElementChild !== target) {
-                link.classList.remove("active");
-            } else {
-                link.classList.add("active");
-            }
-        });
-    }
-
+        if (link.firstElementChild !== target) {
+            link.classList.remove("active");
+        } else {
+            link.classList.add("active");
+        }
+    });
 }
