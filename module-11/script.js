@@ -125,19 +125,17 @@ function show(evt) {
         });
     });
 
-    for (const prop in filter) {
-        if (filter[prop].length === 0) {
-            filter[prop] = laptops.reduce((acc, obj) => acc.includes(String(obj[prop])) ?
-                acc :
-                acc.concat(String(obj[prop])), []);
-        }
-    }
     buildList(filter);
 }
 
-function buildList(obj) {
+function buildList({size, color, release_date}) {
 
-    const filteredList = laptops.filter(laptops => obj.size.includes(String(laptops.size)) && obj.color.includes(laptops.color) && obj.release_date.includes(String(laptops.release_date)));
+    const filteredList = laptops.filter(laptops => {
+        return (!size.length || size.includes(String(laptops.size)))
+            && (!color.length || color.includes(laptops.color))
+            && (!release_date.length || release_date.includes(String(laptops.release_date)))
+    });
+
     domBuilder(filteredList);
 }
 
