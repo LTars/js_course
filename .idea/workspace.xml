@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/module-1-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/module-1-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/script-1-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/script-1-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10-1/module-10-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10-1/script-10-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10-1/style-10-1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10/module-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10/script-10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/module-10/styles-10.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-11/module-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-11/script-11.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-11/style-11.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/module-2-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/module-2-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/script-2-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/script-2-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-3/module-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-3/script-3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-4/module-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-4/script-4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-5/module-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-5/script-5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-6/module-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-6/script-6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/module-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/module-7add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/script-7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/script-7add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/styles-7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-8/module-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-8/script-8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-8/styles-8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-9/module-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-9/script-9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-9/styles-9.css" beforeDir="false" />
-    </list>
+    <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +14,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module-11/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="447">
+              <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
               <folding>
                 <element signature="e#31#2962#0" />
               </folding>
@@ -63,7 +25,11 @@
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module-11/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-521">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -321,12 +287,12 @@
       <workItem from="1546359430513" duration="16453000" />
       <workItem from="1546463917917" duration="14241000" />
       <workItem from="1546534189235" duration="9524000" />
-      <workItem from="1546617350622" duration="12541000" />
+      <workItem from="1546617350622" duration="13245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201623000" />
+    <option name="totallyTimeSpent" value="202327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="48" width="1670" height="953" extended-state="0" />
@@ -736,12 +702,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module-11/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module-11/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="447">
+          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
           <folding>
             <element signature="e#31#2962#0" />
           </folding>
