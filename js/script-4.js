@@ -22,7 +22,7 @@ function Cashier(name, productDatabase) {
         return totalPrice;
     };
 
-    this.countChange = () => this.customerMoney < totalPrice ? null : this.customerMoney - totalPrice;
+    this.countChange = (totalPrice) => this.customerMoney < totalPrice ? null : this.customerMoney - totalPrice;
 
     this.onSuccess = (change) => console.log(`Thank you for your purchase, your change  ${change}`);
 
@@ -60,7 +60,7 @@ mango.getCustomerMoney(300);
 console.log(mango.customerMoney); // 300
 
 // Вызываем countChange для подсчета сдачи
-const change = mango.countChange();
+const change = mango.countChange(totalPrice);
 
 // Проверяем что нам вернул countChange
 console.log(change); // 190
