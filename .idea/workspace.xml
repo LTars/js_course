@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-1/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-1/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-1/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-10/0/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-10/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-10/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-11/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-2/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-2/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-2/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/index-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-7/index-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-7/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-8/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module-8/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-9/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-11/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="418">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -175,13 +150,13 @@
         <option value="$PROJECT_DIR$/module-6/index.html" />
         <option value="$PROJECT_DIR$/module-7/index.html" />
         <option value="$PROJECT_DIR$/module-7/index-add.html" />
-        <option value="$PROJECT_DIR$/module-8/index.html" />
         <option value="$PROJECT_DIR$/module-8/script.js" />
-        <option value="$PROJECT_DIR$/module-9/index.html" />
         <option value="$PROJECT_DIR$/module-10/0/index.html" />
         <option value="$PROJECT_DIR$/module-10/1/index.html" />
         <option value="$PROJECT_DIR$/module-11/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/module-9/index.html" />
+        <option value="$PROJECT_DIR$/module-8/index.html" />
       </list>
     </option>
   </component>
@@ -225,6 +200,21 @@
               <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_course" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_course" type="462c0819:PsiDirectoryNode" />
+              <item name="module-8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_course" type="462c0819:PsiDirectoryNode" />
+              <item name="module-9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_course" type="462c0819:PsiDirectoryNode" />
+              <item name="module-10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
@@ -293,12 +283,12 @@
       <workItem from="1546463917917" duration="14241000" />
       <workItem from="1546534189235" duration="9524000" />
       <workItem from="1546617350622" duration="16675000" />
-      <workItem from="1546722263998" duration="1005000" />
+      <workItem from="1546722263998" duration="2240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206762000" />
+    <option name="totallyTimeSpent" value="207997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="128" y="51" width="1670" height="953" extended-state="0" />
@@ -470,38 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/index-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-8/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="55" column="11" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -526,10 +488,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module-9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-7/index-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="418">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
         </state>
       </provider>
     </entry>
