@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="" />
+    <list default="true" id="1f58c2ae-b556-4c03-897c-a2147dc45b94" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-1/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-1/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-1/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-1/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-10/0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-10/0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-10/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-10/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-2/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-2/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-2/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-2/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-7/index-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-7/index-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-8/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module-8/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module-9/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,24 +29,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module-11/script.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-11/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-              <folding>
-                <element signature="e#31#2962#0" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-11/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-521">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="660">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -45,9 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>delete()</find>
-      <find>buildlist</find>
-      <find>`https://test-users-api.herokuapp.com/users/`</find>
       <find>https://test-users-api.herokuapp.com/users/</find>
       <find>${ur</find>
       <find>url</find>
@@ -75,6 +88,9 @@
       <find>&lt;link rel=&quot;stylesheet&quot; href=&quot;style-</find>
       <find>\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;style\-\d\.css\&quot;\&gt;\n</find>
       <find>\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;styles{0,1}</find>
+      <find>respStatus</find>
+      <find>200</find>
+      <find>.ful</find>
     </findStrings>
     <replaceStrings>
       <replace>inputNewUserName</replace>
@@ -115,23 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/module-7add.html" />
-        <option value="$PROJECT_DIR$/html/module-7.html" />
-        <option value="$PROJECT_DIR$/js/script-7add.js" />
-        <option value="$PROJECT_DIR$/html/module-8.html" />
-        <option value="$PROJECT_DIR$/css/styles-8.css" />
-        <option value="$PROJECT_DIR$/js/script-7.js" />
-        <option value="$PROJECT_DIR$/html/module-9.html" />
-        <option value="$PROJECT_DIR$/css/styles-9.css" />
-        <option value="$PROJECT_DIR$/js/script-9.js" />
-        <option value="$PROJECT_DIR$/html/temp.html" />
-        <option value="$PROJECT_DIR$/css/styles-10.css" />
-        <option value="$PROJECT_DIR$/html/module-10.html" />
-        <option value="$PROJECT_DIR$/js/script-10.js" />
-        <option value="$PROJECT_DIR$/html/module-2-2.html" />
-        <option value="$PROJECT_DIR$/html/module-2-1.html" />
-        <option value="$PROJECT_DIR$/js/module-10-1.js" />
-        <option value="$PROJECT_DIR$/js/script-2-2.js" />
         <option value="$PROJECT_DIR$/js/script-2-1.js" />
         <option value="$PROJECT_DIR$/js/script-3.js" />
         <option value="$PROJECT_DIR$/css/style-11.css" />
@@ -164,8 +163,25 @@
         <option value="$PROJECT_DIR$/module-2/module-2.html" />
         <option value="$PROJECT_DIR$/module-1/module-1.html" />
         <option value="$PROJECT_DIR$/module-1/module-2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/module-11/script.js" />
+        <option value="$PROJECT_DIR$/module-10/1/script.js" />
+        <option value="$PROJECT_DIR$/module-1/index-1.html" />
+        <option value="$PROJECT_DIR$/module-1/index-2.html" />
+        <option value="$PROJECT_DIR$/module-2/index-1.html" />
+        <option value="$PROJECT_DIR$/module-2/index-2.html" />
+        <option value="$PROJECT_DIR$/module-3/index.html" />
+        <option value="$PROJECT_DIR$/module-4/index.html" />
+        <option value="$PROJECT_DIR$/module-5/index.html" />
+        <option value="$PROJECT_DIR$/module-6/index.html" />
+        <option value="$PROJECT_DIR$/module-7/index.html" />
+        <option value="$PROJECT_DIR$/module-7/index-add.html" />
+        <option value="$PROJECT_DIR$/module-8/index.html" />
+        <option value="$PROJECT_DIR$/module-8/script.js" />
+        <option value="$PROJECT_DIR$/module-9/index.html" />
+        <option value="$PROJECT_DIR$/module-10/0/index.html" />
+        <option value="$PROJECT_DIR$/module-10/1/index.html" />
+        <option value="$PROJECT_DIR$/module-11/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -182,8 +198,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="255" />
-    <option name="y" value="48" />
+    <option name="x" value="128" />
+    <option name="y" value="51" />
     <option name="width" value="1670" />
     <option name="height" value="953" />
   </component>
@@ -209,17 +225,6 @@
               <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_course" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_course" type="462c0819:PsiDirectoryNode" />
-              <item name="module-10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_course" type="462c0819:PsiDirectoryNode" />
-              <item name="module-10" type="462c0819:PsiDirectoryNode" />
-              <item name="module-10-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_course" type="b2602c69:ProjectViewProjectNode" />
@@ -287,28 +292,28 @@
       <workItem from="1546359430513" duration="16453000" />
       <workItem from="1546463917917" duration="14241000" />
       <workItem from="1546534189235" duration="9524000" />
-      <workItem from="1546617350622" duration="13245000" />
+      <workItem from="1546617350622" duration="16675000" />
+      <workItem from="1546722263998" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202327000" />
+    <option name="totallyTimeSpent" value="206762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="48" width="1670" height="953" extended-state="0" />
+    <frame x="128" y="51" width="1670" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936628" visible="true" weight="0.30701753" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025679" side_tool="true" weight="0.32914573" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.5006337" side_tool="true" weight="0.30701753" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49743214" weight="0.32992327" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30701753" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32914573" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,17 +323,18 @@
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32962963" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914573" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18339622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914573" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32962963" />
@@ -336,7 +342,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49743214" weight="0.32992327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025679" side_tool="true" weight="0.32914573" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -350,371 +356,180 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/script-5.js">
+    <entry file="file://$PROJECT_DIR$/js/script-2-2.js" />
+    <entry file="file://$PROJECT_DIR$/css/styles-8.css" />
+    <entry file="file://$PROJECT_DIR$/js/script-8.js" />
+    <entry file="file://$PROJECT_DIR$/html/module-8.html" />
+    <entry file="file://$PROJECT_DIR$/js/script-11.js" />
+    <entry file="file://$PROJECT_DIR$/html/module-11.html" />
+    <entry file="file://$PROJECT_DIR$/html/module-10-1.html" />
+    <entry file="file://$PROJECT_DIR$/js/script-10-1.js" />
+    <entry file="file://$PROJECT_DIR$/module-11/module-11.html" />
+    <entry file="file://$PROJECT_DIR$/module-10/module-10.html" />
+    <entry file="file://$PROJECT_DIR$/module-10/module-10-1.html" />
+    <entry file="file://$PROJECT_DIR$/module-9/module-9.html" />
+    <entry file="file://$PROJECT_DIR$/module-8/module-8.html" />
+    <entry file="file://$PROJECT_DIR$/module-7/module-7add.html" />
+    <entry file="file://$PROJECT_DIR$/module-7/module-7.html" />
+    <entry file="file://$PROJECT_DIR$/module-6/module-6.html" />
+    <entry file="file://$PROJECT_DIR$/module-11/script-11.js" />
+    <entry file="file://$PROJECT_DIR$/module-7/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-7/module-add.html" />
+    <entry file="file://$PROJECT_DIR$/module-8/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-9/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-10/module-10/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-10/module-10-1/module-1.html" />
+    <entry file="file://$PROJECT_DIR$/module-11/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-6/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-5/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-4/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-3/module.html" />
+    <entry file="file://$PROJECT_DIR$/module-2/module-1.html" />
+    <entry file="file://$PROJECT_DIR$/module-2/module-2.html" />
+    <entry file="file://$PROJECT_DIR$/module-1/module-1.html" />
+    <entry file="file://$PROJECT_DIR$/module-1/module-2.html" />
+    <entry file="file://$PROJECT_DIR$/module-11/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
+        <state relative-caret-position="726">
+          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+          <folding>
+            <element signature="e#31#2962#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles-10.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-3.js">
+    <entry file="file://$PROJECT_DIR$/module-10/1/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_testpixabay.zip/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-11.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-2-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-2-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-10-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-10.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
           <folding>
-            <element signature="n#!!block;n#addingAll#0" />
-            <element signature="n#!!block;n#addingById#0" />
-            <element signature="n#!!block;n#addingUpdate#0" />
+            <element signature="n#!!block;n#handleBtnClick#0" />
+            <element signature="n#!!block;n#getAllUsers#0" />
             <element signature="n#!!block;n#deleteAll#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-2-2.js">
+    <entry file="file://$PROJECT_DIR$/module-1/index-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles-8.css">
+    <entry file="file://$PROJECT_DIR$/module-1/index-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-8.js">
+    <entry file="file://$PROJECT_DIR$/module-2/index-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="e#35#952#0" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-8.html">
+    <entry file="file://$PROJECT_DIR$/module-2/index-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-11.js">
+    <entry file="file://$PROJECT_DIR$/module-3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-          <folding>
-            <element signature="e#31#2962#0" />
-            <element signature="n#!!block;n#buildList#0" />
-            <element signature="n#!!block;n#clearList#0" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-11.html">
+    <entry file="file://$PROJECT_DIR$/module-4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module-10-1.html">
+    <entry file="file://$PROJECT_DIR$/module-5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script-10-1.js">
+    <entry file="file://$PROJECT_DIR$/module-6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-11/module-11.html">
+    <entry file="file://$PROJECT_DIR$/module-7/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="176">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-10/module-10.html">
+    <entry file="file://$PROJECT_DIR$/module-7/index-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-10/module-10-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-9/module-9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-8/module-8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/module-7add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/module-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="7" selection-start-line="14" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-6/module-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-5/module-5.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-4/module-4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-3/module-3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-2/module-2-1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-11/script-11.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#2962#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-7/module-add.html">
+    <entry file="file://$PROJECT_DIR$/module-8/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="9" column="117" lean-forward="true" selection-start-line="9" selection-start-column="117" selection-end-line="9" selection-end-column="117" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-8/module.html">
+    <entry file="file://$PROJECT_DIR$/module-8/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="434">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-9/module.html">
+    <entry file="file://$PROJECT_DIR$/module-9/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-10/module-10/module.html">
+    <entry file="file://$PROJECT_DIR$/module-10/0/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="176">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-10/module-10-1/module-1.html">
+    <entry file="file://$PROJECT_DIR$/module-10/1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-11/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-6/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-5/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-4/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-3/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-2/module-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-2/module-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-1/module-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-1/module-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module-11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="176">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-11/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="e#31#2962#0" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>

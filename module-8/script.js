@@ -33,7 +33,7 @@ const galleryItems = [
     }
 ];
 
-const fullImages = document.querySelector(".fullview");
+const fullImages = document.querySelector(".full-view");
 const prevImages = document.querySelector(".preview");
 
 let prevImagesArray;
